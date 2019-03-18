@@ -45,12 +45,17 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfólio</a>
             </li>
             <li class="nav-item hvr-wobble-horizontal">
-              <a class="nav-link js-scroll-trigger" href="#about">Sobre mim</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre nós</a>
             </li>
 
             <li class="nav-item hvr-wobble-horizontal">
               <a class="nav-link js-scroll-trigger" href="#contact">Fale conosco</a>
             </li>
+
+            <li class="nav-item hvr-wobble-horizontal">
+                <a class="nav-link js-scroll-trigger" href="#endereco">Endereço</a>
+            </li>
+            
           </ul>
         </div>
       </div>
@@ -335,12 +340,12 @@
     <section id="about" class="bg-dark">
       <div class="container">
         <div class="row"> 
-            <div class="col-md-6 col-sm-12 mt-4">
-              <div class="col-md-12 text-center">
-                  <h2 class="section-heading text-uppercase text-warning">Sobre Nós</h2>
+            <div class="col-md-6 col-sm-12">
+              <div class="col-md-12 text-center mb-4">
+                  <h2 class="section-heading text-uppercase text-warning">Sobre Nós</h2>                  
               </div>
-              <div class="col-md-10 col-sm-12 mx-auto text-center jumbotron bg-warning">
-                <h5 class="text-justify ">
+              <div class="col-md-11 mx-auto col-sm-12 text-center jumbotron bg-warning">
+                <h5 class="text-justify">
                   Somos uma empresa inaugurada em 2017 com objetivo de manter os lares e comércios de Blumenau e região
                   sempre em perfeitas condições com diversos serviços e equipe disponível para resolver os problemas que surgem
                   em seu imóvel no dia-a-dia e assim facilitar a vida dos proprietários.
@@ -348,7 +353,7 @@
               </div>             
             </div>
 
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 mx-auto col-sm-12">
                 <div class="team-member">
                   <img class="mx-auto rounded-circle hvr-grow" src="./images/otario.jpeg" alt="">
                   <h4 class="text-warning">Francisco</h4><p class="text-muted">(Proprietário da FD Soluções)</p>                  
@@ -431,28 +436,28 @@
           <!-- Contact -->
           <div class="col-md-6 col-sm-12">         
             
-              <div class="col-md-12 col-sm-12 text-center">
+              <div class="col-md-12 col-sm-12 text-center mb-4">
                 <h2 class="section-heading text-uppercase text-dark">Fale conosco:</h2>
               </div>
               <form id="contactForm" name="sentMessage" novalidate="novalidate">
                 <div class="row mb-4">
                   <div class="col-md-6 col-sm-12">
                     <div class="form-group">
-                      <input class="form-control" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Informar nome.">
+                      <input class="form-control bg-dark text-light" id="name" type="text" placeholder="Nome *" required="required" data-validation-required-message="Informar nome.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Informar email.">
+                      <input class="form-control bg-dark text-light" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Informar email.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="phone" type="tel" placeholder="Telefone *" required="required" data-validation-required-message="Informar telefone.">
+                      <input class="form-control bg-dark text-light" id="phone" type="tel" placeholder="Telefone *" required="required" data-validation-required-message="Informar telefone.">
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Mensagem *" required="required" data-validation-required-message="Informar mensagem."></textarea>
+                      <textarea class="form-control bg-dark text-light" id="message" placeholder="Mensagem *" required="required" data-validation-required-message="Informar mensagem."></textarea>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -463,21 +468,22 @@
                   </div>
                 </div>
               </form>
-            
+            <hr>
           </div>
 
           <!-- Endereco -->
-          <div class="col-md-6 col-sm-12">
+          <div id="endereco" class="col-md-6 col-sm-12">
             
-              <div class="col-md-12 col-sm-12 text-center">
+              <div class="col-md-12 col-sm-12 text-center mb-4">
                 <h2 class="section-heading text-uppercase text-dark">Endereço:</h2>                    
               </div>
             
               <div class="map-responsive">                                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.7898501706204!2d-49.0698007853878!3d-26.941875900909267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1858a0f6dc95%3A0xf5a4deacc2b56f79!2sR.+Germano+Schreiber%2C+255+-+Garcia%2C+Blumenau+-+SC%2C+89021-160!5e0!3m2!1spt-BR!2sbr!4v1552838442753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>            
+                <iframe class="bg-dark" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.7898501706204!2d-49.0698007853878!3d-26.941875900909267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1858a0f6dc95%3A0xf5a4deacc2b56f79!2sR.+Germano+Schreiber%2C+255+-+Garcia%2C+Blumenau+-+SC%2C+89021-160!5e0!3m2!1spt-BR!2sbr!4v1552838442753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>            
               </div>
 
           </div>
+
         </div>
       </div>                          
              
