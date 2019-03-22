@@ -124,7 +124,8 @@ figure.effect-bubba:hover p {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+	height:0;
+	border-radius: 7px;
 }
 .map-responsive iframe{
     left:0;
